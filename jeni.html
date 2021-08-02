@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<head>
+    <title> MY PORTFOLIO </title>
+</head>
+<style type="text/css">
+    body {
+        background-color: #202020;
+    }
+
+    .cover_photo {
+        background-image: url("picc.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 350px;
+        width: auto;
+        margin-top: -5%;
+        margin-right: -5%;
+        margin-left: -5%;
+    }
+
+    .main_photo {
+        background-image: url("jen.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin: auto;
+        height: 15vw;
+        width: 15vw;
+        margin-top: -8%;
+        border-radius: 50%;
+        border-color: white;
+        border-width: 3px;
+        border-style: solid;
+    }
+
+    .Introduction {
+        font-size: xx-large;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(199, 77, 97);
+        text-align: center;
+        margin: 0%;
+    }
+
+    .designation {
+        font-size: large;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(199, 77, 97);
+        text-align: center;
+        margin: 0%;
+    }
+
+    #first {
+        text-align: center;
+        font-size: large;
+        float: center;
+        margin-right: 0.5px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: 3%;
+    }
+
+    #second {
+        text-align: center;
+        font-size: large;
+        float: center;
+        margin-right: 0.5px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: 3%;
+    }
+
+    #third {
+        text-align: center;
+        font-size: large;
+        float: center;
+        margin-right: 0.5px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: 3%;
+    }
+
+    #fourth {
+        text-align: center;
+        font-size: large;
+        float: center;
+        margin-right: 0.5px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: 3%;
+    }
+
+    /*
+        making a button when hovered shows the content.
+    */
+    .dropbtn {
+        float: right;
+        background-color: black;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+    }
+
+    .dropdown {
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: black;
+        color: white;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+            .dropdown-content a:hover {
+                background-color: grey;
+            }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+    }
+    /*starting intros*/
+
+    .intro_para {
+        background-image: url('img/divbg.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100vw;
+        width: auto;
+        margin-left: 5vw;
+        margin-top: 2%;
+        margin-right: 5vw;
+        padding-left: 2vw;
+        text-align: justify;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+
+    h2 {
+        color: black;
+        font-size: 5vw;
+        padding-top: 18vw;
+        padding-left: 20vw;
+        padding-right: 20vw;
+    }
+
+    p {
+        color: rgb(104, 101, 101);
+        font-size: 2vw;
+        padding-left: 20vw;
+        padding-right: 20vw;
+    }
+    /* divs styling */
+    @media screen and (max-width: 360px) {
+
+        #first {
+            color: rgb(216, 96, 116);
+            text-align: center;
+            font-size: medium;
+            margin-right: 2px;
+        }
+
+        #second {
+            color: rgb(216, 96, 116);
+            text-align: center;
+            font-size: medium;
+            margin-right: 2px;
+        }
+
+        #third {
+            color: rgb(216, 96, 116);
+            text-align: center;
+            font-size: medium;
+            margin-right: 2px;
+        }
+
+        #fourth {
+            color: rgb(216, 96, 116);
+            text-align: center;
+            font-size: medium;
+            margin-right: 2px;
+        }
+    }
+</style>
+<div class="cover_photo">  </div>
+<div class="main_photo"></div>
+
+<h1 class="Introduction">My portfolio </h1>
+<p class="designation"> Budhanilkantha School , Kathmandu </p>
+<br />
+<br />
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<div class="dropdown">
+    <button class="dropbtn">View other pages</button>
+    <div class="dropdown-content">
+        <a href="jeni.html"><div id="first"> Home </div></a>
+        <a href="projects.html"><div id="second"> My Projects </div></a>
+        <a href="contacts.html"><div id="fourth"> Contact me </div></a>
+    </div>
+</div>
+
+<br>
+<br>
+
+<div class="intro_para">
+    <h2> Introduction </h2>
+      <p>
+      Hi eyeryone! I'm Jeni Gurung aka Jen currently studying in Budhanilkantha school grade 10. I'm a fellow teenager whose hobby is dancing and swimming.
+      </p>
+    <p>
+       I'm exploring different new activities but i'm keenly interested in mathematics, debating and different MUNs. I am also into books lately and coding as well.
+       I'm just a beginner but it has attracted me to continue in this field so hopefully I will continue and i'm looking forward to take part in several other interesting programs in the future. 
+    </p>
+    <p>
+      I have taken part in several MUNs, debating competition and also a few mathematics competition. I've also posted my experience in debating, coding and mathematic competition.
+ Make sure to check them out as well!
+    </p>
+    <p>
+   Thank you for paying time to visit to my website. Have a good day ahead!
+    </p>
+</div>
+<br />
+<br />
+<br />
